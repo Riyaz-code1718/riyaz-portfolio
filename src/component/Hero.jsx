@@ -128,9 +128,9 @@ const Hero = () => {
         {/* Follow section  */}
 
         {/* profile section  */}
-        <div className="md:w-1/3 flex justify-between">
+        <div className="md:w-1/3 flex justify-center items-center">
           <motion.img
-            src="/public/riyazportfolio.jpeg"
+            src="/riyazportfolio.jpeg"
             alt="riyaz img"
             className="w-56 h-56 md:w-72 md:h-72 rounded-full object-cover
             border-4 border-green-400"
