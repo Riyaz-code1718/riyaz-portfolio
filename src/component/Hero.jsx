@@ -64,17 +64,26 @@ const Hero = () => {
 
           <div className="flex flex-row gap-4 mt-4 ml-6">
             <a
+              href="/Riyaz_ATS.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 rounded-lg bg-green-800 text-white font-semibold hover:bg-green-600 transition"
+            >
+              Download CV
+            </a>
+
+            {/* <a
               href="#view"
               className="px-5 py-3 border border-purple rounded-lg
             font-bold hover:bg-purple/25 transition duration-300"
             >
-              View Work
-            </a>
+              Download CV
+            </a> */}
 
             <a
               href="#contact"
-              className="px-5 py-3 border border-purple rounded-lg
-            font-bold hover:bg-purple/25 transition duration-300 "
+              className="px-5 py-3 border border-green-700 rounded-lg
+            font-bold hover:bg-green-800 transition duration-300 "
             >
               Contact Me
             </a>
